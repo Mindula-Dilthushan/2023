@@ -52,6 +52,15 @@ const color = [
   "#00aaff",
   "#f00",
   "#ffea00",
+  "#1abc9c",
+  "#2ecc71",
+  "#9b59b6",
+  "#95a5a6",
+  "#22a6b3",
+  "#eb4d4b",
+  "#130f40",
+  "#ffb142",
+  "#227093",
 ];
 let count = 1;
 
@@ -80,7 +89,7 @@ const glowingText = (count) => {
     snow.forEach((e) => {
       e.classList.add(`snow-${textShadowColor[count]}`);
     });
-    btn.innerHTML = "Click Again!";
+    btn.innerHTML = "GitHub";
     btn.style.color = `${color[count]}`;
     count++;
   });

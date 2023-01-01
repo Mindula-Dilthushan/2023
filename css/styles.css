@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
 
 body {
   height: 100vh;
@@ -9,8 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80")
-    no-repeat center center;
+  background-image: url("../assets/download.jpg");
   background-size: cover;
   overflow: hidden;
 }
@@ -22,38 +20,41 @@ body {
 }
 
 .new-year {
-  font-size: 5rem;
+  font-size: 6rem;
   letter-spacing: 5px;
-  margin-bottom: 0;
+  margin-bottom: 20%;
   text-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
-  font-family: "Megrim", cursive, sans-serif;
+  font-family: 'Qwigley', cursive;
 }
 
 .year {
   margin: 0;
   font-size: 8rem;
   letter-spacing: 10px;
-  font-family: "Neonderthaw", "Poiret One", cursive;
+  font-family: 'Moon Dance', cursive;
   text-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
 }
 
 .btn {
-  margin-top: 4rem;
-  width: 8rem;
-  height: 8rem;
+  margin-top: 2.4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #0c0f0a;
   padding: 1rem;
-  font-family: "Allerta Stencil", sans-serif;
+  font-family: 'Poppins', cursive;
   border: none;
-  box-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+  box-shadow: 0 0 25px white, 0 0 50px rgba(255, 255, 255, 0.39), 0 0 100px rgba(255, 255, 255, 0.25);
   outline: 4px solid white;
   outline-offset: 10px;
+  text-align: center;
+  align-content: center;
 }
 
 .btn:hover {
   outline-offset: 4px;
+  cursor: pointer;
 }
 
 .snow {
