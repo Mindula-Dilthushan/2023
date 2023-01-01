@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1524334228333-0f6db392f8a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80")
+    no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.new-year-body {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.new-year {
+  font-size: 5rem;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+  text-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+  font-family: "Megrim", cursive, sans-serif;
+}
+
+.year {
+  margin: 0;
+  font-size: 8rem;
+  letter-spacing: 10px;
+  font-family: "Neonderthaw", "Poiret One", cursive;
+  text-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+}
+
+.btn {
+  margin-top: 4rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #0c0f0a;
+  padding: 1rem;
+  font-family: "Allerta Stencil", sans-serif;
+  border: none;
+  box-shadow: 0 0 25px white, 0 0 50px white, 0 0 100px white;
+  outline: 4px solid white;
+  outline-offset: 10px;
+}
+
+.btn:hover {
+  outline-offset: 4px;
+}
+
+.snow {
+  position: absolute;
+  top: -10%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 0px #fff, 0 0 50px #fff;
+}
+
+.snowAnimation1 {
+  animation: snowFall1 linear infinite;
+}
+.snowAnimation2 {
+  animation: snowFall2 linear infinite;
+}
+.snowAnimation3 {
+  animation: snowFall3 linear infinite;
+}
+.snowAnimation4 {
+  animation: snowFall4 linear infinite;
+}
+
+@keyframes snowFall1 {
+  0% {
+    transform: translate(0vw, 0vh);
+  }
+  100% {
+    transform: translate(50vw, 150vh);
+  }
+}
+@keyframes snowFall2 {
+  0% {
+    transform: translate(-10vw, -10vh);
+  }
+  100% {
+    transform: translate(60vw, 150vh);
+  }
+}
+@keyframes snowFall3 {
+  0% {
+    transform: translate(10vw, 0vh);
+  }
+  100% {
+    transform: translate(40vw, 150vh);
+  }
+}
+@keyframes snowFall4 {
+  0% {
+    transform: translate(0vw, 0vh);
+  }
+  100% {
+    transform: translate(40vw, 150vh);
+  }
+}
+
+.white {
+  text-shadow: 0 0 25px #fff, 0 0 50px #fff, 0 0 100px #fff;
+}
+.btn-white {
+  box-shadow: 0 0 25px #fff, 0 0 50px #fff, 0 0 100px #fff;
+}
+.snow-white {
+  box-shadow: 0 0 0px #fff, 0 0 50px #fff;
+}
+.green {
+  text-shadow: 0 0 5px #1fd224, 0 0 25px #1fd224, 0 0 50px #1fd224,
+    0 0 100px #1fd224, 0 0 200px #1fd224;
+}
+.btn-green {
+  box-shadow: 0 0 5px #1fd224, 0 0 25px #1fd224, 0 0 50px #1fd224,
+    0 0 100px #1fd224, 0 0 200px #1fd224;
+}
+.snow-green {
+  box-shadow: 0 0 20px #1fd224, 0 0 50px #1fd224;
+}
+.orange {
+  text-shadow: 0 0 5px #ffaa01, 0 0 25px #ffaa01, 0 0 50px #ffaa01,
+    0 0 100px #ffaa01, 0 0 200px #ffaa01;
+}
+.btn-orange {
+  box-shadow: 0 0 5px #ffaa01, 0 0 25px #ffaa01, 0 0 50px #ffaa01,
+    0 0 100px #ffaa01, 0 0 200px #ffaa01;
+}
+.snow-orange {
+  box-shadow: 0 0 20px #ffaa01, 0 0 50px #ffaa01;
+}
+.pink {
+  text-shadow: 0 0 5px #ff00aa, 0 0 25px #ff00aa, 0 0 50px #ff00aa,
+    0 0 100px #ff00aa, 0 0 200px #ff00aa;
+}
+.btn-pink {
+  box-shadow: 0 0 5px #ff00aa, 0 0 25px #ff00aa, 0 0 50px #ff00aa,
+    0 0 100px #ff00aa, 0 0 200px #ff00aa;
+}
+.snow-pink {
+  box-shadow: 0 0 20px #ff00aa, 0 0 50px #ff00aa;
+}
+.violet {
+  text-shadow: 0 0 5px #aa00ff, 0 0 25px #aa00ff, 0 0 50px #aa00ff,
+    0 0 100px #aa00ff, 0 0 200px #aa00ff;
+}
+.btn-violet {
+  box-shadow: 0 0 5px #aa00ff, 0 0 25px #aa00ff, 0 0 50px #aa00ff,
+    0 0 100px #aa00ff, 0 0 200px #aa00ff;
+}
+.snow-violet {
+  box-shadow: 0 0 20px #aa00ff, 0 0 50px #aa00ff;
+}
+.blue {
+  text-shadow: 0 0 5px #00aaff, 0 0 25px #00aaff, 0 0 50px #00aaff,
+    0 0 100px #00aaff, 0 0 200px #00aaff;
+}
+.btn-blue {
+  box-shadow: 0 0 5px #00aaff, 0 0 25px #00aaff, 0 0 50px #00aaff,
+    0 0 100px #00aaff, 0 0 200px #00aaff;
+}
+.snow-blue {
+  box-shadow: 0 0 20px #00aaff, 0 0 50px #00aaff;
+}
+.red {
+  text-shadow: 0 0 5px #f00, 0 0 25px #f00, 0 0 50px #f00, 0 0 100px #f00,
+    0 0 200px #f00;
+}
+.btn-red {
+  box-shadow: 0 0 5px #f00, 0 0 25px #f00, 0 0 50px #f00, 0 0 100px #f00,
+    0 0 200px #f00;
+}
+.snow-red {
+  box-shadow: 0 0 20px #f00, 0 0 50px #f00;
+}
+.yellow {
+  text-shadow: 0 0 5px #ffea00, 0 0 25px #ffea00, 0 0 50px #ffea00,
+    0 0 100px #ffea00, 0 0 200px #ffea00;
+}
+.btn-yellow {
+  box-shadow: 0 0 5px #ffea00, 0 0 25px #ffea00, 0 0 50px #ffea00,
+    0 0 100px #ffea00, 0 0 200px #ffea00;
+}
+.snow-yellow {
+  box-shadow: 0 0 20px #ffea00, 0 0 50px #ffea00;
+}
